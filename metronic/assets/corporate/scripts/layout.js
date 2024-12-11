@@ -283,7 +283,8 @@ var Layout = function () {
         // handle theme colors
         var setColor = function (color) {
             $('#style-color').attr("href", "assets/corporate/css/themes/" + color + ".css");
-            $('.corporate .site-logo img').attr("src", "assets/corporate/img/logos/logo-corp-" + color + ".png");
+            $('.corporate .site-logo img').attr("src", "assets/corporate/img/logos/logo.jpg");
+            // $('.corporate .site-logo img').attr("src", "assets/corporate/img/logos/logo-corp-" + color + ".png");
             $('.ecommerce .site-logo img').attr("src", "assets/corporate/img/logos/logo-shop-" + color + ".png");
         }
 
